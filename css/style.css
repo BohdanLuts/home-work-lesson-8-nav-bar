@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #262626;
+  padding: 20px;
+  min-width: 320px;
+}
+
+header,
+header a {
+  color: #f3f9ff;
+}
+
+.logoContainer p {
+  white-space: nowrap;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Fasthand", cursive;
+  font-size: 40px;
+}
+
+.logo,
+.navMenu {
+  padding: 10px 15px 10px 0;
+}
+.navMenu,
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.navMenu,
+.contact {
+  margin: 10px 0;
+}
+
+.menu {
+  display: flex;
+}
+
+.menuItems {
+  margin-right: 15px;
+}
+
+.contact {
+  border: 1px solid #f3f9ff;
+  border-radius: 5px;
+}
+.contactItem {
+  font-size: 12px;
+  margin: 15px 20px;
+}
